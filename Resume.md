@@ -13,7 +13,7 @@
          ·
          <span>
              <img src="assets/github-brands.svg" width="18px">
-             <a href="https://github.com/gongluck">gongluck</a>
+             <a href="https://github.com/gongluck">https://github.com/gongluck</a>
          </span>
          ·
          <span>
@@ -70,7 +70,7 @@
   3）修复VGIS内部代码缺陷或者将缺陷反馈给平台开发负责人。
 
 - **后台服务管理工具 项目**
-![](SM2.png)
+![](SM1.png)![](SM2.png)
     
     技术栈：C++(11) + Win32 API + Duilib + WMI
 
@@ -98,6 +98,24 @@
   5）把SAPI简单封装成TTS库。
   6）利用ffmpeg库解码音频。
   7）其他客户端功能设计。
+
+- **视频点播服务 项目**
+![](govideo.png)
+
+  技术栈：Go + Gin + Gorm + Docker + Redis + http + html5 + css
+
+  项目介绍：业余时间做的视频后台服务，现实现了简单的视频上传、播放、下载、删除等功能。可基于Docker部署。访问主页：http://www.gongluck.icu/web/
+
+  项目地址：https://github.com/gongluck/govideo_server
+
+  Docker镜像：https://hub.docker.com/repository/docker/gongluck/govideo_server
+
+  我的职责：
+  1）数据库表设计。
+  2）Http接口设计与实现。
+  3）session设计与实现。
+  4）html模板页面设计与实现。
+  5）Docker镜像制作。
 
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能清单
